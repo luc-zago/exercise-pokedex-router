@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import Pokemon from './Pokemon';
 import Button from './Button';
 import './pokedex.css';
@@ -66,14 +65,6 @@ class Pokedex extends React.Component {
           disabled={filteredPokemons.length <= 1}>
           Próximo pokémon
         </Button>
-        <Link to={`/pokemon/${pokemon.id}`}>
-          <button
-            className="pokemon-details-button"
-            type="button"
-          >
-            Detalhes do pokémon
-          </button>
-        </Link>
       </div>
     );
   }

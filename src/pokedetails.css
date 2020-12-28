@@ -1,0 +1,44 @@
+.title {
+  text-align: center;
+}
+
+.pokemon-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 10px 10px;
+  align-items: center;
+}
+
+.pokemon {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex: 1 1 auto;
+  min-width: 25%;
+  margin: 10px 10px;
+  border: 1px gray solid;
+  border-radius: 10px;
+}
+
+.location {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  justify-content: center;
+  margin: 0 -60px;
+}
+
+.map {
+  margin: 0 60px;
+}
+
+.pokedex {
+  display: flex;
+  justify-content: center;
+}
+
+.pokedex-img {
+  max-width: 35%;
+}
+    
